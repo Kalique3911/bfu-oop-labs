@@ -107,7 +107,7 @@ class AgeValidator implements IPropertyChangingListener<User> {
     }
 }
 
-const demonstrate = (): void => {
+const demonstrateee = (): void => {
     const user = new User()
     const logger = new LogListener()
     const validator = new AgeValidator()
@@ -122,4 +122,4 @@ const demonstrate = (): void => {
     console.log(`Users name is ${user.name}, age is ${user.age}`)
 }
 
-demonstrate()
+demonstrateee()

@@ -1,0 +1,5 @@
+[2025-05-27T17:17:49.071Z] ERROR: This is a critical failure
+[2025-05-27T17:17:49.084Z] ERROR: Minor issue
+[2025-05-27T17:17:49.094Z] CRITICAL: ERROR occurred
+[2025-05-27T17:17:49.104Z] ERROR: Disk full
+[2025-05-27T17:17:49.115Z] CRITICAL: Database connection failed

@@ -248,7 +248,6 @@ class Keyboard {
 }
 
 const demonstrate = (): void => {
-    console.log("=== Virtual Keyboard Demo ===\n")
     const keyboard = new Keyboard()
     const keySequence = ["a", "b", "c", "undo", "undo", "redo", "ctrl++", "ctrl+-", "ctrl+p", "d", "undo", "undo"]
 
@@ -263,7 +262,6 @@ const demonstrate = (): void => {
     }
 
     keyboard.saveState()
-    console.log("\n=== Demo Complete ===")
 }
 
 demonstrate()

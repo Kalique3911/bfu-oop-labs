@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Alaic son of Athanaric",
+    "login": "AAB",
+    "password": "rome410",
+    "email": "alaric@kantiana.com",
+    "address": "No permanent residence"
+  },
+  {
+    "id": 2,
+    "name": "Flavius Julius Valens",
+    "login": "FJV",
+    "password": "adrianopolis378",
+    "email": "asdsa@sdasd.com",
+    "address": "Constantinople"
+  },
+  {
+    "id": 3,
+    "name": "Achilleus son of Peleus",
+    "login": "AP",
+    "password": "troyXII",
+    "address": "Hellas"
+  }
+]

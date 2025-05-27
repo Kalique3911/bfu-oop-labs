@@ -106,10 +106,6 @@ class Vector2d {
         return `Vector2d(${this.X}, ${this.Y})`
     }
 
-    abs() {
-        return Object.values(this).length
-    }
-
     add(other: Vector2d): Vector2d {
         return new Vector2d({ x: this.X + other.X, y: this.Y + other.Y })
     }
@@ -148,15 +144,15 @@ class Vector2d {
     // }
 }
 
-const demonstrate = () => {
+const demonstratee = () => {
     try {
         const p1 = new Point2d(10, 20)
         const p2 = new Point2d(30, 40)
         const p3 = new Point2d(10, 20)
 
         console.log("Points:")
-        console.log(p1.toString())
-        console.log(p2.toString())
+        console.log(p1.str())
+        console.log(p2.str())
         console.log(`p1 equals p2: ${p1.eq(p2)}`)
         console.log(`p1 equals p3: ${p1.eq(p3)}`)
         console.log(p1.str())
@@ -166,15 +162,15 @@ const demonstrate = () => {
         const v3 = new Vector2d({ start: p1, end: p2 })
 
         console.log("\nVectors:")
-        console.log(v1.toString())
-        console.log(v2.toString())
-        console.log(v3.toString())
+        console.log(v1.str())
+        console.log(v2.str())
+        console.log(v3.str())
 
         console.log("\nVector operations:")
-        console.log(`v1 + v2: ${v1.add(v2)}`)
-        console.log(`v2 - v1: ${v2.subtract(v1)}`)
-        console.log(`v1 * 3: ${v1.multiply(3)}`)
-        console.log(`v2 / 2: ${v2.divide(2)}`)
+        console.log(`v1 + v2: ${v1.add(v2).str()}`)
+        console.log(`v2 - v1: ${v2.subtract(v1).str()}`)
+        console.log(`v1 * 3: ${v1.multiply(3).str()}`)
+        console.log(`v2 / 2: ${v2.divide(2).str()}`)
 
         console.log("\nProducts:")
         console.log(`Dot product: ${v1.scalarProduct(v2)}`)
@@ -195,4 +191,4 @@ const demonstrate = () => {
     }
 }
 
-demonstrate()
+demonstratee()

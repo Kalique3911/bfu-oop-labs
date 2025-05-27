@@ -1,0 +1,34 @@
+a
+ab
+abc
+ab
+undo
+a
+undo
+ab
+redo
+volume increased to 70%
+volume decreased to 50%
+media player launched
+abd
+ab
+undo
+media player closed
+undo
+aaaa
+aaaab
+aaaabc
+aaaab
+undo
+aaaa
+undo
+aaaab
+redo
+volume increased to 70%
+volume decreased to 50%
+media player launched
+aaaabd
+aaaab
+undo
+media player closed
+undo

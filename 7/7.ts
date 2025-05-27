@@ -142,7 +142,7 @@ const configureDebug = (injector: Injector): void => {
 }
 
 const demonstrate = () => {
-    console.log("--- Production Configuration ---")
+    console.log("Production Configuration")
     const prodInjector = new Injector()
     configureProduction(prodInjector)
 
@@ -153,7 +153,7 @@ const demonstrate = () => {
     processor1.process("test data")
     console.log("Same instance in scope:", processor1 === processor2)
 
-    console.log("\n--- Debug Configuration ---")
+    console.log("\nDebug Configuration")
     const debugInjector = new Injector()
     configureDebug(debugInjector)
 
